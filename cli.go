@@ -9,12 +9,12 @@ import (
 
 	"context"
 
-	pb "github.com/fusidic/go-microsvc/consignment-service/proto/consignment"
-	"github.com/micro/go-micro"
+	pb "github.com/fusidic/consignment-service/proto/consignment"
+	micro "github.com/micro/go-micro"
 )
 
 const (
-	// address         = "localhost:50051"
+	address         = "localhost:50051"
 	defaultFilename = "consignment.json"
 )
 

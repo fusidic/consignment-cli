@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN go get
+RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o consignment-cli
 
 
